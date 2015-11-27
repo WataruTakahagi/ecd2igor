@@ -65,7 +65,7 @@ else:
 			f2.close()
 			shutil.move(outputname,path)
 			os.chdir(path)
-			print "running... in",name,filename,"->",outputname
+			print "running... in",name,filename,"->"+GREEN+outputname+ENDC
 			shutil.move(outputname, "output")
 			f1.close()
 			os.chdir(file)
